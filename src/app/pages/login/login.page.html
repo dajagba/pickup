@@ -1,64 +1,28 @@
-<ion-content>
-    <form #form="ngForm" (ngSubmit)="login(form)">
-    <!-- <ion-grid>
-      <ion-row color="primary" justify-content-center>
+<ion-content class="background" padding>
+    <form #form="ngForm" (ngSubmit)="login(form)" style="padding-top:100px;">
+    <ion-grid> 
+      <ion-row color="primary"  justify-content-center align-items-center >
         <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
-          <div text-center>
-            <h3>Login</h3>
+          <div text-center padding-top="25"> 
+            <img src="../../../assets/pickupLogo.png">
           </div>
-          <div padding>
-            <ion-item>
-              <ion-input name="email" type="email" placeholder="your@email.com" ngModel required></ion-input>
+          <div class="login-box" style="margin-top: 50px;">
+            <ion-item > 
+              <ion-input class="input" name="email" type="email" placeholder="your@email.com" ngModel required></ion-input>
             </ion-item>
             <ion-item>
               <ion-input name="password" type="password" placeholder="Password" ngModel required></ion-input>
             </ion-item>
+            <div class="ion-text-end" style="margin-top:10px; margin-right:20px;" >
+                <a routerLink="/" routerDirection="forward"> Forgot Password?</a>
+            </div>
           </div>
-          <div padding>
-            <ion-button size="large" type="submit" [disabled]="form.invalid" expand="block">Login</ion-button>
-          </div>
+          <div padding text-center style="margin-top:30px;">
+            <ion-button size="large" type="submit" [disabled]="form.invalid" expand="block" color="logo">Login</ion-button>
+            <ion-button size="large" type="submit"  expand="block" color="primary">Create Account</ion-button>
+          </div>         
         </ion-col>
       </ion-row>
-    </ion-grid> -->
-    <div class="loginpage">
-      <div style="width: 414px; height: 100%; position:relative; margin:auto;">
-          <img anima-src="./img/login-page-tanya-prodan-5t5vtjympi-unsplash.png" class="tanyaprodan5t5vtjympiunsplash" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-          <div class="rectangle">
-          </div>
-          <a href="home.html">
-              <div class="buttoncopy">
-                  <img anima-src="./img/login-page-rectangle@2x.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                  <div class="button">
-                      Login
-                  </div>
-              </div>
-          </a>
-          <img anima-src="./img/login-page-pickup-full-logo2-copy.png" class="pickupfulllogo2copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-          <div class="login">
-              <img anima-src="./img/login-page-rectangle-1@2x.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-              <div class="emailinput">
-                  <div class="rectangle2">
-                  </div>
-                  <div class="email">
-                      Email
-                  </div>
-              </div>
-              <div class="passwordinput">
-                  <div class="rectangle2">
-                  </div>
-                  <div class="email">
-                      Password
-                  </div>
-              </div>
-              <div class="forgotpassword">
-                  Forgot Password?
-              </div>
-          </div>
-          <div class="createaccount">
-              Create Account
-          </div>
-      </div>
-  </div>
-  
+    </ion-grid>
   </form>
 </ion-content>

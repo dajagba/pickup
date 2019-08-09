@@ -12,7 +12,7 @@ import {timer} from 'rxjs';
   templateUrl: 'app.component.html'
 })
 export class AppComponent {
-  showSplash:boolean = true; 
+  showSplash:boolean = false; //to disable splash screen set to false
   constructor(
     private platform: Platform,
    // private SplashScreen: SplashScreen,

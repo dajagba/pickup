@@ -1,15 +1,61 @@
 ion-content{
 
-    --ion-background-color:#FC814A; 
+    // --ion-background-color:#FC814A; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
+ion-content.background{
+    --background: url(../../../assets/loginpagebackground.png) 0 0/100% 100% no-repeat;
+}
 
 
 
+.login-box {
+    background-color    : white;
+    // padding: 20px 20px 20px 20px;
+    padding-bottom: 30px;
+    padding-top:30px;
+     width: 100%;
+     box-sizing          : border-box;
+    border-style        : solid;
+     border-width        : 1px;    
+     border-radius       : 30px;
+    // border-color        : rgba(232, 232, 232, 1.0);
+    // -ms-transform       : rotate(0deg); /* IE 9 */
+    // -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    // transform           : rotate(0deg);
+    //opacity             : 0.18;
+    //width               : 414px;
+    //position            : absolute;
+   // padding: 20px 20px 0px 20px;
+  //  margin-top: 30px;
+  }
+
+ ion-item {
+    width:90%;
+    margin-left:10px;
+}
+// .item-inner {
+//     border-bottom-color: #ffffff !important;
+//     box-shadow: none !important;
+//   }
+
+a {
+    text-decoration: none;
+    background-color    : rgba(255,255,255,0.0);
+     font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+     font-size           : 17.0px;
+     color               : rgba(154, 0, 0, 1.0);
+    letter-spacing      : -0.41px;
+     line-height         : 22.0px;
+ }
+
+a:hover {
+    text-decoration: underline;
+}
 // @font-face {
 //     font-family: "SFProText-Semibold";
 //     src: url('../fonts/SF-Pro-Text-Semibold.otf') format("opentype");
@@ -21,348 +67,3 @@ ion-content{
 //   @font-face {
 //     font-family: "SFProDisplay-Regular";
 //     src: url('../fonts/SF-Pro-Display-Regular.otf') format("opentype");
-//   }
-  
-.loginpage {
-width               : 100%;
-min-width           : 414px;
-height              : 100vh;
-min-height          : 736px;
-position            : relative;
-overflow            : hidden;
-margin              : 0px;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-background-color    : rgba(255, 255, 255, 1.0);
-}
-a {
-text-decoration     : none;
-}
-div {
--webkit-text-size-adjust: none;
-}
-.anima-full-width-a {
-width               : 100%;
-}
-.anima-full-height-a {
-height              : 100%;
-}
-div {
--webkit-text-size-adjust: none;
-}
-.loginpage .tanyaprodan5t5vtjympiunsplash {
-background-color    : rgba(255,255,255,0.0);
-top                 : -40px;
-height              : 776px;
-width               : 514px;
-position            : absolute;
-margin              : 0;
-left                : -49px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-}
-.loginpage .rectangle {
-background-color    : rgba(233, 233, 233, 1.0);
-top                 : 0px;
-height              : 736px;
-box-sizing          : border-box;
-width               : 414px;
-position            : absolute;
-margin              : 0;
-left                : 0px;
-border-style        : solid;
-border-width        : 1px;
-border-color        : rgba(150, 150, 150, 1.0);
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-opacity             : 0.18;
-}
-.loginpage .buttoncopy {
-background-color    : rgba(255,255,255,0.0);
-top                 : 524px;
-height              : 58px;
-width               : 293px;
-position            : absolute;
-margin              : 0;
-left                : 61px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-}
-.loginpage .buttoncopy .rectangle1 {
-background-color    : rgba(255,255,255,0.0);
-top                 : 0px;
-height              : 58px;
-width               : 293px;
-position            : absolute;
-margin              : 0;
-left                : 0px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-}
-.loginpage .buttoncopy .button {
-background-color    : rgba(255,255,255,0.0);
-top                 : 15px;
-height              : auto;
-width               : auto;
-position            : absolute;
-margin              : 0;
-left                : 124px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
-font-size           : 17.0px;
-color               : rgba(233, 233, 233, 1.0);
-text-align          : center;
-letter-spacing      : -0.41px;
-line-height         : 22.0px;
-}
-.loginpage .pickupfulllogo2copy {
-background-color    : rgba(255,255,255,0.0);
-top                 : 92px;
-height              : 118px;
-width               : 340px;
-position            : absolute;
-margin              : 0;
-left                : 37px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-}
-.loginpage .login {
-background-color    : rgba(255,255,255,0.0);
-top                 : 287px;
-height              : 169px;
-width               : 293px;
-position            : absolute;
-margin              : 0;
-left                : 61px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-}
-.loginpage .login .rectangle1 {
-background-color    : rgba(255,255,255,0.0);
-top                 : 0px;
-height              : 169px;
-width               : 293px;
-position            : absolute;
-margin              : 0;
-left                : 0px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-}
-.loginpage .login .emailinput {
-background-color    : rgba(255,255,255,0.0);
-top                 : 16px;
-height              : 48px;
-width               : 271px;
-position            : absolute;
-margin              : 0;
-left                : 11px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-}
-.loginpage .login .emailinput .rectangle2 {
-background-color    : rgba(232, 232, 232, 1.0);
-top                 : 0px;
-height              : 48px;
-box-sizing          : border-box;
-width               : 271px;
-position            : absolute;
-margin              : 0;
-left                : 0px;
-border-radius       : 5px;
-border-style        : solid;
-border-width        : 1px;
-border-color        : rgba(150, 150, 150, 1.0);
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-}
-.loginpage .login .emailinput .email {
-background-color    : rgba(255,255,255,0.0);
-top                 : 14px;
-height              : auto;
-width               : auto;
-position            : absolute;
-margin              : 0;
-left                : 11px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-font-family         : "SFProText-Regular", Helvetica, Arial, serif;
-font-size           : 17.0px;
-color               : rgba(60, 60, 67, 0.66);
-text-align          : left;
-letter-spacing      : -0.41px;
-line-height         : 22.0px;
-}
-.loginpage .login .passwordinput {
-background-color    : rgba(255,255,255,0.0);
-top                 : 78px;
-height              : 48px;
-width               : 271px;
-position            : absolute;
-margin              : 0;
-left                : 11px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-}
-.loginpage .login .passwordinput .rectangle2 {
-background-color    : rgba(232, 232, 232, 1.0);
-top                 : 0px;
-height              : 48px;
-box-sizing          : border-box;
-width               : 271px;
-position            : absolute;
-margin              : 0;
-left                : 0px;
-border-radius       : 5px;
-border-style        : solid;
-border-width        : 1px;
-border-color        : rgba(150, 150, 150, 1.0);
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-}
-.loginpage .login .passwordinput .email {
-background-color    : rgba(255,255,255,0.0);
-top                 : 14px;
-height              : auto;
-width               : auto;
-position            : absolute;
-margin              : 0;
-left                : 11px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-font-family         : "SFProText-Regular", Helvetica, Arial, serif;
-font-size           : 17.0px;
-color               : rgba(60, 60, 67, 0.66);
-text-align          : left;
-letter-spacing      : -0.41px;
-line-height         : 22.0px;
-}
-.loginpage .login .forgotpassword {
-background-color    : rgba(255,255,255,0.0);
-top                 : 131px;
-height              : auto;
-width               : 138px;
-position            : absolute;
-margin              : 0;
-left                : 144px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-font-family         : "SFProText-Regular", Helvetica, Arial, serif;
-font-size           : 17.0px;
-color               : rgba(154, 0, 0, 1.0);
-text-align          : left;
-letter-spacing      : -0.41px;
-line-height         : 22.0px;
-}
-.loginpage .createaccount {
-background-color    : rgba(255,255,255,0.0);
-top                 : 583px;
-height              : auto;
-width               : auto;
-position            : absolute;
-margin              : 0;
-left                : 147px;
--ms-transform       : rotate(0deg); /* IE 9 */
--webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-transform           : rotate(0deg);
-font-family         : "SFProText-Regular", Helvetica, Arial, serif;
-font-size           : 17.0px;
-color               : rgba(150, 0, 0, 1.0);
-text-align          : center;
-letter-spacing      : -0.41px;
-line-height         : 22.0px;
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-opacity             : 0;
-display             : block;
--webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
--moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
--o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-opacity             : 1;
-display             : block;
--webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
--moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
--o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
--webkit-animation-delay: 0;
--moz-animation-delay: 0;
--o-animation-delay  : 0;
-animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-0%
-
-{
-opacity: 0;
-}
-
-
-100%
-
-{
-opacity: 1;
-}
-}
-@-moz-keyframes anima-reveal {
-0%
-
-{
-opacity: 0;
-}
-
-
-100%
-
-{
-opacity: 1;
-}
-}
-@-o-keyframes anima-reveal {
-0%
-
-{
-opacity: 0;
-}
-
-
-100%
-
-{
-opacity: 1;
-}
-}
-@keyframes anima-reveal {
-0%
-
-{
-opacity: 0;
-}
-
-
-100%
-
-{
-opacity: 1;
-}
-}
